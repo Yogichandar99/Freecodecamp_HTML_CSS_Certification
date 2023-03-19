@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <h1 id="title">freeCodeCamp Survey Form
+    </h1>
+    <link rel="stylesheet" href="styles.css" />
+  <head>
+  <body>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </body>
+  <fieldset>
+    <form id="survey-form">
+      <div>
+      <label id="name-label" for="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+      <label id="email-label"for="email-label">Email<input type="email" id="email" placeholder="Enter you Email" required></label>
+      <label id="number-label" for="number-label">Age(optional)<input type="number" id="number" min="13" max="120" placeholder="Age"></label>
+      </div>
+  <div>
+    <label for="dropdown">Which option best describes your current role?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select current role)</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer Not to say</option>
+            <option value="5">Other</option>
+          </select>
+  </div>
+  <div>
+    Would you recommend freeCodeCamp to a friend?
+    <label for id="Definetly"><input type="radio" name="recommend" value="Definetly" class="inline"> Definetly</label>
+    <label for id="May be"><input type="radio" name="recommend" value="May be" class="inline"> May be</label>
+    <label for id="Not sure"><input type="radio" name="recommend" value="Not sure" class="inline"> Not sure</label>
+  </div>
+  <div>
+    what is your favorite part of codecamp?(check all that apply)
+    <label for id="Front-end project"><input type="checkbox" name="menu" value="Front-end project" class="inline"  > Front-end project</label>
+    <label for id="Back-end Project"><input type="checkbox" name="menu" value="Back-end project" class="inline" > Back-end Project</label>
+    <label for id="Data Visualization"><input type="checkbox" name="menu" value="Data Visualization" class="inline" > Data Visualization</label>
+    <label for id="Challanges"><input type="checkbox" name="menu" value="Challanges" class="inline" > Challenges</label>
+    <label for id="Community"><input type="checkbox" name="menu" value="Open Source Community" class="inline" > Open Source Community</label>
+    <label for id="Gitter help rooms"><input type="checkbox" name="menu" value="Gitter help rooms" class="inline" > Gitter help rooms</label>
+    <label for id="Videos"><input type="checkbox" name="menu" value="Videos" class="inline" > Videos</label>
+    <label for id="Videos"><input type="checkbox" name="menu" value="City Meetups" class="inline" > City Meetups</label>
+    <label for id="Videos"><input type="checkbox" name="menu" value="Wiki" class="inline" > Wiki</label>
+    <label for id="Videos"><input type="checkbox" name="menu" value="Forum" class="inline" > Forum</label>
+    <label for id="Videos"><input type="checkbox" name="menu" value="Additional Courses" class="inline" > Additional Courses</label>   
+  </div>
+  <div>
+    Any comments or suggestions
+    <textarea placeholder="Enter your comment here">
+    </textarea>
+  </div>
+  <input type="submit" id="submit" value="submit">
+  </fieldset>
+</form> 
+<html>
